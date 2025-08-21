@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>경안고 급식정보</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍴 경안고 급식정보</h1>
+    
+    <div class="input-section">
+      <input type="date" id="date">
+      <button id="getMealBtn">급식 확인</button>
+    </div>
+
+    <div class="allergy-section">
+      <h3>⚠️ 알레르기 체크</h3>
+      <div class="allergy-checkboxes">
+        <label><input type="checkbox" value="1"> 난류(계란)</label>
+        <label><input type="checkbox" value="2"> 우유</label>
+        <label><input type="checkbox" value="5"> 대두</label>
+        <label><input type="checkbox" value="6"> 밀</label>
+        <label><input type="checkbox" value="9"> 새우</label>
+        <label><input type="checkbox" value="10"> 돼지고기</label>
+        <label><input type="checkbox" value="13"> 땅콩</label>
+        <label><input type="checkbox" value="15"> 닭고기</label>
+        <label><input type="checkbox" value="16"> 소고기</label>
+        <label><input type="checkbox" value="18"> 토마토</label>
+      </div>
+    </div>
+
+    <div id="mealInfo" class="meal-info">
+      📅 날짜를 선택하고 버튼을 눌러주세요.
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
